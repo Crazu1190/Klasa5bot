@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '!blokady @karixq2#9868') {
+    if (message.content === '!blokady @karixq2') {
     	message.channel.send('Wyszukiwanie informacji...');
         message.channel.send(' ');
         message.channel.send(' ');
@@ -16,9 +16,9 @@ client.on('message', message => {
         message.delete('Wczytywanie...');
         message.reply('wszystko zostało wczytane!');
         message.channel.send('■■■■■■■■■■■■');
-        message.channel.send('Blokady użytkownika @karixq2#9868 :');
+        message.channel.send('Blokady użytkownika @karixq2 :');
         message.channel.send('Znaleziono 1 blokadę :');
-        message.channel.send('Blokada nałożona przez @Crazy1190#3515');
+        message.channel.send('Blokada nałożona przez @Crazy1190');
         message.channel.send('Typ blokady: Wyciszenie na kanałach tekstowych ');
         message.channel.send('Powód blokady: Wyzywanie się');
         message.channel.send('BLOKADA WYGASŁA');
