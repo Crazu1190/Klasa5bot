@@ -18,7 +18,7 @@ client.on('message', message => {
         message.channel.send('■■■■■■■■■■■■');
         message.channel.send('Blokady użytkownika @karixq2 :');
         message.channel.send('Znaleziono 1 blokadę :');
-        message.channel.send('Blokada nałożona przez @Crazy1190');
+        message.channel.send('Blokada nałożona przez Michał Gap');
         message.channel.send('Typ blokady: Wyciszenie na kanałach tekstowych ');
         message.channel.send('Powód blokady: Wyzywanie się');
         message.channel.send('BLOKADA WYGASŁA');
