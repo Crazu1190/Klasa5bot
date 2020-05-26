@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '!blokady karixq2') {
+    if (message.content === '!blokady karixq2 389u8u8gaugrq8wg8wgqgqwg') {
     	message.channel.send('Wyszukiwanie informacji...');
         message.channel.send(' ');
         message.channel.send(' ');
@@ -22,6 +22,13 @@ client.on('message', message => {
         message.channel.send('Typ blokady: Wyciszenie na kanałach tekstowych ');
         message.channel.send('Powód blokady: Wyzywanie się');
         message.channel.send('BLOKADA WYGASŁA');
+        }
+     if (message.content === '!statusbota') {
+    	message.channel.send(' ');
+        message.channel.send(' ');
+        message.channel.send(' ');
+        message.channel.send('Status bota znajdziesz w linku na dole');
+        message.channel.send('https://sites.google.com/view/klasa5-bot58fuehsad23as/strona-g%C5%82%C3%B3wna');
         }
 });
 
