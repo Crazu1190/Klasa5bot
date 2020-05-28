@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '!blokady karixq2 389u8u8gaugrq8wg8wgqgqwg') {
+    if (message.content === '!blokady karixq2') {
     	message.channel.send('Wyszukiwanie informacji...');
         message.channel.send(' ');
         message.channel.send(' ');
@@ -29,6 +29,15 @@ client.on('message', message => {
         message.channel.send(' ');
         message.channel.send('Status bota znajdziesz w linku na dole');
         message.channel.send('https://sites.google.com/view/klasa5-bot58fuehsad23as/strona-g%C5%82%C3%B3wna');
+        }
+     if (message.content === '!restrick włącz') {
+    	message.channel.send('Przyjęto twoje żądanie');
+        }
+     if (message.content === '!nieobecneosoby') {
+    	message.channel.send('Komenda jest dostępna podczas lekcji');
+        }
+     if (message.content === '!pracadomowa') {
+    	message.channel.send('Nie wprowadzono danych');
         }
 });
 
